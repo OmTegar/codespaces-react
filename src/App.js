@@ -4,23 +4,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <p>Hi there, I'm Tegar Dito Priandika</p>
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=OmTegar&show_icons=true&theme=github_dark&hide_border=true#gh-dark-mode-only" alt="OmTegar-cards"/>
+        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmTegar&langs_count=3&theme=github_dark&hide_border=true#gh-dark-mode-only" alt="OmTegar-Graps"/>
       </header>
     </div>
   );
