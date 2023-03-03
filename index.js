@@ -9,7 +9,7 @@ http
 
     var filePath = "." + request.url;
     if (filePath == "./") {
-      filePath = "./app/index.html";
+      filePath = "./public/index.html";
     }
 
     var extname = String(path.extname(filePath)).toLowerCase();
